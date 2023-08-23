@@ -1,0 +1,47 @@
+button {
+  background-color: rgb(133, 23, 116);
+  border: 6px solid plum;
+  border-radius: 10px;
+}
+
+.game-board {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #96c7f8;
+  color: rgb(151, 102, 185);
+  border: 6px solid #4848ec;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.grid-row {
+  border: 6px solid #739dc7;
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(243, 233, 146);
+}
+
+.block {
+  background-color: rgb(211, 63, 102);
+  border: 6px solid rgb(117, 204, 117);
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20em;
+}
+
+.red {
+  color: black;
+}
+
+.white {
+  color: white;
+}
